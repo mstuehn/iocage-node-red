@@ -1,7 +1,7 @@
 {
-  "name": "node-red",                                                             
+  "name": "node-red-plugin",                                                             
   "release": "11.2-RELEASE",
-  "artifact": "https://github.com/tprelog/iocage-node-red.git", 
+  "artifact": "https://github.com/mstuehn/iocage-node-red.git", 
   "properties": { 
     "allow_raw_sockets":"1"
   },
@@ -12,7 +12,7 @@
     "www/npm-node8",
     "lang/python27"
   ],
-  "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
   "fingerprints": {
     "plugin-default": [
       {
